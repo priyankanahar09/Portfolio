@@ -3,18 +3,18 @@ import emoji from "react-easy-emoji";
 
 // Name that will appear on the splash Screen
 const splashScreenName = {
-    name : "Rhythm"
+    name : "Priyanka"
 }
 
 //Logo name in the navigation bar
 const navBarIcon = {
-    name : "Rhythm"
+    name : "Priyanka"
 }
 
 const introduction = {
-    firstName : "Rhythm" ,
+    firstName : "Priyanka" ,
     
-    lastName : "Varshney" ,
+    lastName : "Nahar" ,
     
     introductionText : "A passionate Software Developer. I have built projects that showcase my skills. I have build applications with JavaScript, ReactJS, NodeJS, SpringBoot and some other cool libraries and frameworks. I can design efficient algorithms which can help in improving the performance of the application." ,
 
@@ -28,7 +28,7 @@ const introduction = {
 const profilesToShow = [
     {
         name : "github",
-        link : "https://github.com/rhythm-design",
+        link : "https://github.com/priyankanahar09",
         fontAwesomeIcon : "fa fa-github",
     },
 
@@ -40,13 +40,13 @@ const profilesToShow = [
 
     {
         name : "linkedin",
-        link : "https://www.linkedin.com/in/rhythmvarshney/",
+        link : "https://www.linkedin.com/in/priyanka-nahar/",
         fontAwesomeIcon : "fab fa-linkedin-in"
     },
     
     {
         name : "mail",
-        link : "mailto:rhythmrv3@gmail.com",
+        link : "mailto:pn.nahar1@gmail.com",
         fontAwesomeIcon : "fas fa-envelope"
     }
 ]
@@ -55,7 +55,7 @@ const skillsToShow = {
     
     skillTitle : "What I do",
 
-    skillSubtitle : "FULL STACK DEVELOPER WHO WANT TO EXPLORE AND BECOME BEST IN EVERY TECH STACK",
+    skillSubtitle : "I specialize in machine learning and deep learning solutions and consulting.",
 
     skillList : [
         emoji("⚡ Develop highly interactive FrontEnd / User Interface for you web and mobile applications."),
@@ -65,63 +65,65 @@ const skillsToShow = {
 
     softwareSkillsIcons : [
         {
-            name : "HTML-5",
-            fontAwesomeIcon : "fab fa-html5"
+            name: "Python",
+            fontAwesomeIcon: "fab fa-python"
         },
-
         {
-            name : "CSS3",
-            fontAwesomeIcon : "fab fa-css3-alt"
+            name: "Linux",
+            fontAwesomeIcon: "fab fa-linux"
         },
-
         {
-            name : "sass",
-            fontAwesomeIcon : "fab fa-sass"
+            name: "C",
+            fontAwesomeIcon: "fas fa-code"
         },
-
         {
-            name : "Java",
-            fontAwesomeIcon : "fab fa-java"
+            name: "C++",
+            fontAwesomeIcon: "fab fa-cuttlefish"  // You can use a different icon if preferred
         },
-
         {
-            name : "DSA",
-            fontAwesomeIcon : "fas fa-code"
+            name: "Java",
+            fontAwesomeIcon: "fab fa-java"
         },
-
         {
-            name : "JavaScript",
-            fontAwesomeIcon : "fab fa-js"
+            name: "DSA",
+            fontAwesomeIcon: "fas fa-code"
         },
-
         {
-            name : "ReactJS",
-            fontAwesomeIcon : "fab fa-react"
+            name: "JavaScript",
+            fontAwesomeIcon: "fab fa-js"
         },
-
+      
         {
-            name : "NodeJS",
-            fontAwesomeIcon : "fab fa-node"
+            name: "Database",
+            fontAwesomeIcon: "fas fa-database"
         },
-
         {
-            name : "SpringBoot",
-            fontAwesomeIcon : "fab fa-java"
+            name: "AWS (Basic)",
+            fontAwesomeIcon: "fab fa-aws"
         },
-
         {
-            name : "Database",
-            fontAwesomeIcon : "fas fa-database"
+            name: "Notion",
+            fontAwesomeIcon: "fab fa-notion"
         },
-
         {
-            name : "AWS (Basic)",
-            fontAwesomeIcon : "fab fa-aws"
+            name: "Miro",
+            fontAwesomeIcon: "fas fa-paint-brush"  // Use a relevant icon
         },
-
         {
-            name : "Unit Testing",
-            fontAwesomeIcon : "fas fa-bug"
+            name: "Git",
+            fontAwesomeIcon: "fab fa-git"
+        },
+        {
+            name: "Docker",
+            fontAwesomeIcon: "fab fa-docker"
+        },
+        {
+            name: "Machine Learning",
+            fontAwesomeIcon: "fas fa-brain"
+        },
+        {
+            name: "Deep Learning",
+            fontAwesomeIcon: "fas fa-robot"
         }
     ]
 }
@@ -135,23 +137,26 @@ const proficiencyData = {
     heading : "Proficiency" ,
     skillsData : [
         {
-            name : "Frontend",
-            percent : "80%"
+            name : "Python",
+            percent : "85%"
         },
-
+        {
+            name : "Programming and DSA",
+            percent : "85%"
+        },
         {
             name : "Backend",
             percent : "70%"
         },
 
         {
-            name : "Java and SpringBoot",
-            percent : "80%"
+            name : "Linux and Systems Administration",
+            percent : "70%"
         },
 
         {
             name : "Programming and DSA",
-            percent : "85%"
+            percent : "90%"
         }
     ]
 }

@@ -20,7 +20,7 @@ const introduction = {
 
     resumeLink : "https://drive.google.com/file/d/163-8rfxj4b4wcB1kLY8wOi2C8oBfVpLl/view?usp=share_link",
 
-    resumeButtonText : "SEE MY RESUME",
+    resumeButtonText : "SEE MY RESUME", 
 
     contactButtonText : "CONTACT ME"
 }
@@ -58,10 +58,13 @@ const skillsToShow = {
     skillSubtitle : "I specialize in machine learning and deep learning solutions and consulting.",
 
     skillList : [
-        emoji("⚡ Develop highly interactive FrontEnd / User Interface for you web and mobile applications."),
-        emoji("⚡ Design time and space efficient algorithms to improve the application performance for best user Experience."),
-        emoji("⚡ Integeration of third party services such as Firebase")
-    ],
+       
+        emoji("⚡ Proficient in cloud technologies: AWS, DevOps."),
+        emoji("⚡ Expertise in Python, JavaScript, and web technologies."),
+        emoji("⚡ AI and machine learning integration for smart features."),
+        emoji("⚡ Experience with libraries like TensorFlow, OpenCV, scikit-learn.")
+        ]
+        ,
 
     softwareSkillsIcons : [
         {
@@ -152,11 +155,6 @@ const proficiencyData = {
         {
             name : "Linux and Systems Administration",
             percent : "70%"
-        },
-
-        {
-            name : "Programming and DSA",
-            percent : "90%"
         }
     ]
 }
@@ -176,7 +174,7 @@ const proficiencyData = {
 */
 const projectsGithubRepos = {
     heading : "What I have made",
-    username : "rhythm-design",
+    username : "priyankanahar09",
     repoNames : [
         "navigatethebot",
         "keepnotes",
@@ -185,7 +183,7 @@ const projectsGithubRepos = {
         "SecretKeeper",
         "Leetcode-Solutions-with-Explanation"
     ],
-    githubRepositoriesLink : "https://github.com/rhythm-design?tab=repositories",
+    githubRepositoriesLink : "https://github.com/https://github.com/priyankanahar09?tab=repositories",
     projectsButtonText : "More Projects"
 }
 
@@ -206,7 +204,7 @@ const achievementsAndCertifications = {
             description: "Added 4 missing test cases to Leetcode",
             imageAlt: "Leetcode png",
             imageSrc: "https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png",
-            hasLink: true,
+            hasLink: false,
             proofLink: "https://docs.google.com/document/d/1lbeHFpQlfQfhVB18PnrFbJ1cL-OJ6yTYZ1XlJ4kzP0E/edit",
             achievementButtonText: "Leetcode TestCases"
         },
@@ -249,11 +247,11 @@ const achievementsAndCertifications = {
 
 const contactMe = {
     heading : "Reach Out to me!",
-    subHeading : "DISCUSS INNOVATIVE IDEAS TO BUILD OR HIRE ME FOR BUILDING IMPACTFUL TECH SOLUTION",
-    bioText : "Searching for SDE jobs | Proactive Software Engineer | Full Stack Developer | Leetcode 450+ | Delivering High-Quality Code",
+    subHeading: "DISCUSS INNOVATIVE IDEAS OR HIRE ME FOR MACHINE LEARNING AND AI SOLUTIONS",
+    bioText: "Aspiring Machine Learning Researcher | Deep Learning Specialist | Freelance Consultant | Helping you build intelligent and scalable solutions with Python, AI, and cloud technologies",
     location : "India",
     openForOpportunities : "YES",
-    profilePicture : require("./assets/images/ProfilePicture.jpg")   //You can change your picture by adding your photo in assets/images folder
+    profilePicture : require("./assets/images/PriyankaProfile.jpg")   //You can change your picture by adding your photo in assets/images folder
 }
 
 

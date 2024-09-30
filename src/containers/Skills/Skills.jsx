@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-import ManProgramming from "../../assets/lottie/man-programming.json";
+import ManProgramming from "../../assets/lottie/programing.json";
 import RenderLottie from "../../components/RenderLottie/RenderLottie";
 import SoftwareSkills from "../../components/SoftwareSkills/SoftwareSkills";
 import { skillsToShow } from "../../PortfolioData";

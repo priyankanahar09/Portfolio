@@ -1,13 +1,16 @@
+
 import React from "react";
 import { useLottie } from "lottie-react";
 
-const RenderLottie = ({animationJSON}) => {
+const RenderLottie = ({ animationJSON, style = null }) => {
     const options = {
         animationData: animationJSON,
         loop: true
     };
 
     const { View } = useLottie(options);
-    return <>{View}</>
-}
-export default RenderLottie;
+
+    return <div style={style ? style : {}}>{View}</div>;
+};
+
+export default RenderLottie;

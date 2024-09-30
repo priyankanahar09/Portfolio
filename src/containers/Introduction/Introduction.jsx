@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import ManHello from "../../assets/lottie/manHello.json";
+import ManHello from "../../assets/lottie/womanhi.json";
 import { introduction } from "../../PortfolioData";
 import emoji from "react-easy-emoji";
 import RenderLottie from "../../components/RenderLottie/RenderLottie";
@@ -29,7 +29,11 @@ const Introduction = () => {
                 </div>
                 <div className="lottie-anim" >
                     <div className="man-hello">
-                        <RenderLottie animationJSON={ManHello}/>
+                        
+                        <RenderLottie 
+                        animationJSON={ManHello} 
+                        style={{ height: '300px', width: '350px', overflow: 'hidden' }} 
+                    />
                     </div>  
                 </div>
             </div>

@@ -3,9 +3,9 @@
   <h2 align="center">DevProfolio</h3>
   <p align="center">
     An awesome customizable portfolio for developers 
-    <br />
+  <!--  <br />
     <a href="https://rhythmvarshney.me/"><strong>« View Demo »</strong></a>
-    <br />
+    <br />  -->
   </p>
 </div>
 

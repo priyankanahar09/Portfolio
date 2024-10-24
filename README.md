@@ -11,9 +11,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Portfolio
-
+<!--
 ![github-portfolio-gif](https://github.com/rhythm-design/DevProfolio/assets/56234578/7b0ccc72-3452-4bd2-8b75-daab3fae087b)
-
+ -->
 This the fully customizable portfolio made exclusively for developers. Through this, a developer can either modify the portfolio data to make it for them or can also use it to learn how to create a portfolio.
 
 Below are some details which this portolio supports

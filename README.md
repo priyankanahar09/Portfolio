@@ -3,9 +3,7 @@
   <h2 align="center">DevProfolio</h3>
   <p align="center">
     An awesome customizable portfolio for developers 
-  <!--  <br />
-    <a href="https://rhythmvarshney.me/"><strong>« View Demo »</strong></a>
-    <br />  -->
+ 
   </p>
 </div>
 
@@ -94,8 +92,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- Profiles -->
 <br />
 
-[![LinkedIN]][Linkedin-url]
-[![Leetcode]][LeetCode-url]
+
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -106,7 +104,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 [HTML]: https://img.shields.io/badge/HTML-FF2D20?style=for-the-badge&logo=HTML&logoColor=white
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [LinkedIN]: https://img.shields.io/badge/LinkedIN-0077B5?style=for-the-badge&logo=LinkedIN&logoColor=white
-[Linkedin-url]:https://www.linkedin.com/in/rhythmvarshney/
+
 [Leetcode]: https://img.shields.io/badge/Leetcode-20232A?style=for-the-badge&logo=Leetcode&logoColor=white
-[LeetCode-url]:https://leetcode.com/rhythm_varshney/
+
 
